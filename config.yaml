@@ -30,8 +30,8 @@ SETTINGS:
     # pause multiplier for browser actions
     BROWSER_PAUSE_MULTIPLIER: 1.5
     # telegram settings
-    TELEGRAM_BOT_TOKEN: ''
-    TELEGRAM_USERS_IDS: []
+    TELEGRAM_BOT_TOKEN: 'faucet_trade_bot'
+    TELEGRAM_USERS_IDS: [@theAlteGangster]
 
 # --------------------------- #
 # FLOW SECTION
@@ -40,7 +40,7 @@ FLOW:
     # number of swaps. bean ambient monad etc
     NUMBER_OF_SWAPS: [1, 1]
     # percent of balance to swap
-    PERCENT_OF_BALANCE_TO_SWAP: [5, 15]
+    PERCENT_OF_BALANCE_TO_SWAP: [5, 7]
 
 # --------------------------- #
 # OTHER SECTIONS
@@ -109,7 +109,7 @@ TESTNET_BRIDGE:
     BRIDGE_ALL_MAX_AMOUNT: 0.01
 
 NOSTRA:
-    PERCENT_OF_BALANCE_TO_DEPOSIT: [3, 15]
+    PERCENT_OF_BALANCE_TO_DEPOSIT: [3, 5]
     DEPOSIT: true
     BORROW: true
     REPAY: true
@@ -150,17 +150,17 @@ MAGICEDEN:
 FAUCET:
     USE_SOLVIUM_FOR_CLOUDFLARE: true
     # CHEAPEST CAPTCHA SOLVER - https://t.me/solvium_crypto_bot
-    SOLVIUM_API_KEY: xxxxxxxxxxxxxxxxxxxxxxxx
+    SOLVIUM_API_KEY: Rts8n6END4z65YF1IQQgZEbYPju5uY7K
 
     # optional
     USE_CAPSOLVER_FOR_CLOUDFLARE: false
     CAPSOLVER_API_KEY: CAP-
 
     # Using Nocaptcha by default
-    NOCAPTCHA_API_KEY: ""
+    NOCAPTCHA_API_KEY:niyiisathug-c1a97a4c-0400-0fec-68a1-b49eab5d576e
     # if does not work without proxy, set proxy here
     # format: username:password@ip:port
-    PROXY_FOR_NOCAPTCHA: "x"
+    PROXY_FOR_NOCAPTCHA: tpinbsvw:sv84yphgxp14@45.127.248.127:5128
     
 # --------------------------- #
 # EXCHANGES SECTION
@@ -208,3 +208,4 @@ FLAPSH:
 
 MADNESS:
     SWAP_ALL_TO_MONAD: false
+		
